@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>流星游戏</title>
+    <style>
+        #gameCanvas {
+            width: 360px;
+            height: 640px;
+            position: relative;
+            background-color: black;
+            overflow: hidden;
+        }
+        .meteor {
+            position: absolute;
+            cursor: pointer;
+        }
+        #stats {
+            color: white;
+            position: absolute;
+            right: 10px;
+            top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="gameCanvas">
+        <div id="stats"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
